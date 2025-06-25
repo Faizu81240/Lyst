@@ -1,0 +1,42 @@
+.navContainer{
+    display: inline-flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 36px;
+    border: 2px solid #000;
+    background: #FFF;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+.button{
+    display: flex;
+    height: 40px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.buttonFocus{
+    display: flex;
+    height: 40px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #000;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

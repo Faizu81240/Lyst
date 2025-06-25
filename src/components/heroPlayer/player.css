@@ -1,0 +1,87 @@
+.songPlayback{
+    display: flex;
+    width: 700px;
+    height: 56px;
+    padding: 0px 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #FFF;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+.track{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.trackImage{
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 40px;
+    background:lightgray 50% / cover no-repeat;
+}
+.trackDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.trackName{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+.artist{
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+}
+.playerControls{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;   
+}
+.timer{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+.playbackControls{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.previous{
+    width: 20px;
+    height: 18px;
+    fill: #000;
+}
+.playPause{
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1/1;
+    stroke-width: 4px;
+    fill: #000;
+}
+.forward{
+    width: 20px;
+    height: 18px;
+    fill: #000;
+}
+.addButton{
+    width: 36px;
+    height: 36px;
+    aspect-ratio: 1/1;
+    fill: #000;
+}

@@ -1,0 +1,45 @@
+.searchBar{
+    display: flex;
+    width: 806px;
+    height: 56px;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #000 ;
+    border-radius: 60px;
+    background: #fff;
+    box-shadow: 4px 4px 0 0 #000;
+    gap: 30px;
+}
+.searchIcon{
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1/1;
+}
+
+.inputArea{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputArea::placeholder{
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.spotifyLogo{
+    width: 36px;
+    height: 36px;
+    aspect-ratio: 1/1;
+}
