@@ -1,13 +1,22 @@
 
 import './nav.css'
+import { NavLink } from 'react-router-dom';
 
 function HeroNav(){
   return (
     <div className='navContainer'>
-        <div className='buttonFocus'><span to="/home">Home</span></div>
-        <div className='button'><span>Search</span></div>
-        <div className='button'><span>Library</span></div>
-        <div className='button'><span>Create</span></div>
+      <NavLink to="/home" className={'buttonFocus'}>
+        Home
+      </NavLink>
+      <NavLink to="/search" className={'button'}>
+        Search
+      </NavLink>
+      <NavLink to="/library" className={'button'}>
+        Library
+      </NavLink>
+      <NavLink to="/create" className={'button'}>
+        Create
+      </NavLink>
     </div>
   );
 }
